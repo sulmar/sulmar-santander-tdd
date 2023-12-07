@@ -4,7 +4,7 @@ namespace ConsoleApp.Model
 {
 
     // Klasa potomna
-    class BankingAcount : Account
+    public class BankingAcount : Account
     {
         public BankingAcount(string number, string currency = "PLN")
         {

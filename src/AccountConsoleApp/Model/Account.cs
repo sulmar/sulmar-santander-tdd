@@ -5,6 +5,12 @@
     {
         public string Number;      // pole publiczne (public)
         protected decimal Balance; // pole chronione (protected)
+
+        public decimal GetBalance()
+        {
+            return Balance;
+        }
+
         public string Currency;
 
         public DateTime OpenedDate;
