@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MortgageInterestCalculatorW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounts.UnitTests", "Accounts.UnitTests\Accounts.UnitTests.csproj", "{D5FE8ADD-2C7C-43F0-B781-1047CF46B4A1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Logic", "MortgageInterestCalculator.Logic\App.Logic.csproj", "{1A10769F-CE13-428A-8060-FCF60E90EFFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MortgageInterestCalculator.UnitTests", "MortgageInterestCalculator.UnitTests\MortgageInterestCalculator.UnitTests.csproj", "{12D101F9-7E04-4DA8-8CDE-29E8DA4F14B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{D5FE8ADD-2C7C-43F0-B781-1047CF46B4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5FE8ADD-2C7C-43F0-B781-1047CF46B4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5FE8ADD-2C7C-43F0-B781-1047CF46B4A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A10769F-CE13-428A-8060-FCF60E90EFFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A10769F-CE13-428A-8060-FCF60E90EFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A10769F-CE13-428A-8060-FCF60E90EFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A10769F-CE13-428A-8060-FCF60E90EFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D101F9-7E04-4DA8-8CDE-29E8DA4F14B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D101F9-7E04-4DA8-8CDE-29E8DA4F14B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D101F9-7E04-4DA8-8CDE-29E8DA4F14B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D101F9-7E04-4DA8-8CDE-29E8DA4F14B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
