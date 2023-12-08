@@ -7,6 +7,15 @@ namespace App.Logic.UnitTests
     [TestClass]
     public class MortgageInterestCalculatorTests
     {
+        MortgageInterestCalculator calculator;
+
+        // Metoda uruchamiana jest przed ka¿d¹ metod¹ testow¹
+        [TestInitialize]
+        public void Init()
+        {
+            calculator = new MortgageInterestCalculator();
+        }
+
 
         //[TestMethod]
         //public void Method_Scenario_ExpectedBehavior()
@@ -51,11 +60,12 @@ namespace App.Logic.UnitTests
 
         [TestMethod]
         [DataRow(150000, 6, 762)]
-        [DataRow(300000, 6, 1525)]        
+        [DataRow(300000, 6, 1525)]
         public void Calculate_LeapYear_ReturnsInterest(int leftToPaid, int rate, int expected)
         {
             // Arrange - przygotowanie przypadku testowego (scenariusza) do testu
             MortgageInterestCalculator calculator = new MortgageInterestCalculator(LeapYear);
+
 
             // Act - czynnoœæ 
             decimal result = calculator.Calculate(leftToPaid, rate);
@@ -83,7 +93,7 @@ namespace App.Logic.UnitTests
         public void Calculate_LeftToPaidIsZero_ShouldThrowsInvalidOperationException()
         {
             // Arrange
-            MortgageInterestCalculator calculator = new MortgageInterestCalculator();
+            // MortgageInterestCalculator calculator = new MortgageInterestCalculator();
 
             // Act
             calculator.Calculate(0, 1);
@@ -95,7 +105,7 @@ namespace App.Logic.UnitTests
         public void Calculate_RateIsZero_ReturnsZero()
         {
             // Arrange
-            MortgageInterestCalculator calculator = new MortgageInterestCalculator();
+            // MortgageInterestCalculator calculator = new MortgageInterestCalculator();
 
             // Act
             decimal result = calculator.Calculate(1, 0);
@@ -109,7 +119,7 @@ namespace App.Logic.UnitTests
         public void Calculate_LeftToPaidIsNegative_ShouldThrowsApplicationException()
         {
             // Arrange
-            MortgageInterestCalculator calculator = new MortgageInterestCalculator();
+            // MortgageInterestCalculator calculator = new MortgageInterestCalculator();
 
             // Act
             calculator.Calculate(-1, 1);
@@ -123,7 +133,7 @@ namespace App.Logic.UnitTests
         public void Calculate_RateIsNegative_ShouldThrowsArgumentOutOfRangeException()
         {
             // Arrange
-            MortgageInterestCalculator calculator = new MortgageInterestCalculator();
+           // MortgageInterestCalculator calculator = new MortgageInterestCalculator();
 
             // Act
             calculator.Calculate(1, -1);
