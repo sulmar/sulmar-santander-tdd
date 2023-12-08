@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopperApp", "ShopperApp\Sh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopperApp.UnitTests", "ShopperApp.UnitTests\ShopperApp.UnitTests.csproj", "{836AAF45-4CC2-42C8-A392-78E220E982B8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogAnalyzer", "LogAnalyzer\LogAnalyzer.csproj", "{30A4D9B7-47A0-4483-8BA2-07536AC36ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogAnalyzer.UnitTests", "LogAnalyzer.UnitTests\LogAnalyzer.UnitTests.csproj", "{0397EF84-8434-4EAA-B03A-7108AE2A12D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{836AAF45-4CC2-42C8-A392-78E220E982B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{836AAF45-4CC2-42C8-A392-78E220E982B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{836AAF45-4CC2-42C8-A392-78E220E982B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A4D9B7-47A0-4483-8BA2-07536AC36ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A4D9B7-47A0-4483-8BA2-07536AC36ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A4D9B7-47A0-4483-8BA2-07536AC36ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A4D9B7-47A0-4483-8BA2-07536AC36ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0397EF84-8434-4EAA-B03A-7108AE2A12D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0397EF84-8434-4EAA-B03A-7108AE2A12D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0397EF84-8434-4EAA-B03A-7108AE2A12D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0397EF84-8434-4EAA-B03A-7108AE2A12D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
